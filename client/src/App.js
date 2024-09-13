@@ -1,15 +1,17 @@
 
+import WebDevelopment from './AboutWebDevelopment/WebDevelopment';
 import './App.css';
-import Home from './Home/Home';
-
-
-// https://flowndeveloper.com/
+import Contact from './Contact/Contact';
+import Services from './Services/Services';
 function App() {
   return (
     <div className="App">
-      <Home/>
+      
+      <Services />
+      <WebDevelopment />
+      {/* <Contact /> */}
+
     </div>
-  
   );
 }
 
