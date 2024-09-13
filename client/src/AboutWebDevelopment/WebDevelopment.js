@@ -10,10 +10,11 @@ export default function WebDevelopment() {
           <Typography variant="h3" gutterBottom>
             About Web Development
           </Typography>
-          <Typography variant="body1">
-            This is the left div where you can place your text or other data.
-            You can style this div however you like using Material-UI
-            components.
+          <Typography variant="h6">
+            At BrownTech, we specialize in creating high-performance websites
+            and web applications that drive digital success. Our web development
+            services cover both front-end and back-end development, ensuring
+            visually engaging and technically robust solutions.
           </Typography>
         </Grid>
 
@@ -32,7 +33,6 @@ export default function WebDevelopment() {
         </Grid>
       </Grid>
       <Typography variant="h3">Technology we Cover</Typography>
-
     </Box>
   );
 }
