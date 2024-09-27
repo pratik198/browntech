@@ -1,15 +1,14 @@
+import Features from "./Components/Features/Features";
+import Services from "./Components/Services/Services";
+import Technology from "./Components/Technology/Technology";
 
-import WebDevelopment from './AboutWebDevelopment/WebDevelopment';
-import './App.css';
-import Contact from './Contact/Contact';
-import Services from './Services/Services';
+
 function App() {
   return (
     <div className="App">
-      
       <Services />
-      <WebDevelopment />
-      <Contact />
+      <Features />
+      <Technology />
 
     </div>
   );
